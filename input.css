@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bar{
+    @apply w-6 h-[2px] my-[6px] block bg-white
+}
+
+.fixed-nav{
+    @apply fixed z-[9999] shadow-xl
+}
+
+.bar-menu > span:nth-child(1){
+    @apply rotate-45
+}
+
+.bar-menu > span:nth-child(2){
+    @apply scale-0
+}
+
+.bar-menu > span:nth-child(3){
+    @apply -rotate-45
+}
